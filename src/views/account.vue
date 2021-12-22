@@ -13,7 +13,7 @@
           <ion-input type="password" placeholder="Must be at laest 8 character"></ion-input>
         </ion-item>
         <ion-item class="space-x-2">
-          <ion-checkbox></ion-checkbox>
+          <ion-checkbox checked="True"></ion-checkbox>
           <ion-label> Remember me</ion-label>
         </ion-item>
         <ion-button class="mt-4" expand="block" v-on:click="onClick()">LOGIN</ion-button>

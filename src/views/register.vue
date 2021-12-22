@@ -29,6 +29,13 @@
             <ion-input type="number" placeholder="yy"></ion-input>
           </div>
         </ion-item>
+          <ion-item>
+            <ion-label position="stacked">Gender</ion-label>
+            <ion-select value="Gender" :interfaceOptions="customOptions" interface="action-sheet" placeholder="Select one">
+              <ion-select-option value="peperoni">Male</ion-select-option>
+              <ion-select-option value="hawaii">Female</ion-select-option>
+            </ion-select>
+        </ion-item>
         <ion-button class="mt-4" expand="block" v-on:click="onClick()">LOGIN</ion-button>
         <div class="hava p-4">
           <h2>
