@@ -1,9 +1,11 @@
 <template>
-  <ion-page>
+  <ion-page >
     <ion-header>
     </ion-header>
     <ion-content :fullscreen="true">
-
+      <div class="search">
+          <ion-searchbar show-cancel-button="focus"></ion-searchbar>
+      </div>
       <div class="slides mt-6">
         <div class="flex justify-between w-full p-6">
           <span>Phones</span>
@@ -42,6 +44,7 @@ import {
   IonCard,
   IonCardContent,
   IonCardHeader,
+  IonSearchbar
 } from "@ionic/vue";
 
 export default {
@@ -53,6 +56,7 @@ export default {
     IonCard,
     IonCardContent,
     IonCardHeader,
+    IonSearchbar
   }
 };
 </script>
