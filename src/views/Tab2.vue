@@ -141,7 +141,7 @@
         </ion-card>
       </div>
       <div class="checkout p-4">
-        <ion-button color="success" expand="full" v-on:click="onClick()">Check Out</ion-button>
+        <ion-button color="success" href="/tabs/checkout" expand="full" v-on:click="onClick()">Check Out</ion-button>
       </div>
     </ion-content>
   </ion-page>
