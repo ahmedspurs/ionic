@@ -4,7 +4,7 @@
       <ion-router-outlet></ion-router-outlet>
       <ion-tab-bar slot="bottom">
         <ion-tab-button tab="tab1" href="/tabs/tab1">
-        <ion-icon :icon="home"/>
+        <ion-icon :icon="homeOutline"/>
         </ion-tab-button>
           
         <ion-tab-button tab="tab2" href="/tabs/tab2">
@@ -25,7 +25,7 @@
 
 <script lang="ts">
 import { IonTabBar, IonTabButton, IonTabs, IonIcon, IonPage, IonRouterOutlet } from '@ionic/vue';
-import { ellipse, square, triangle,cartOutline,home,chatbubblesOutline,personOutline } from 'ionicons/icons';
+import { ellipse, square, triangle,cartOutline,homeOutline,chatbubblesOutline,personOutline } from 'ionicons/icons';
 
 export default {
   name: 'Tabs',
@@ -38,7 +38,7 @@ export default {
       chatbubblesOutline,
       cartOutline,
       personOutline,
-      home
+      homeOutline
     }
   }
 }
