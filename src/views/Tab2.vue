@@ -16,10 +16,11 @@
           <h2>3 Products</h2>
           <ion-icon :icon="ellipsisVerticalOutline"></ion-icon>
         </div>
+        <!-- 3 -->
         <ion-card>
           <ion-card-content>
             <div class="flex justify-around">
-              <img src="../../public/assets/1.jpg" class="w-48">
+              <img src="../../public/assets/3.jpg" class="w-32">
               <div class="text px-4">
                 <ion-text color="primary">
                   <h1>Iphone 6</h1>
@@ -29,21 +30,19 @@
                 </ion-text>
               </div>
             </div>
-            <div class="py-4 flex items-center justify-between">
-              <div class="quantaty px-4 flex items-center justify-between">
-                <ion-icon :icon="addOutline" size="large"></ion-icon>
+            <div class="quantaty p-4 flex items-center justify-around">
+              <ion-icon :icon="addOutline" class="text-2xl"></ion-icon>
 
-                <ion-input type="number" class="text-center" value="3"></ion-input>
-                <ion-icon :icon="removeOutline" size="large"></ion-icon>
-              </div>
-              <div class="del-price space-x-8 flex items-center justify-between">
-                <ion-text color="danger">
-                  <ion-icon size="large" :icon="trashOutline"></ion-icon>
-                </ion-text>
-                <ion-text color="primary">
-                  <h1>400$</h1>
-                </ion-text>
-              </div>
+              <ion-input type="number" class="text-center" value="3"></ion-input>
+              <ion-icon :icon="removeOutline" class="text-2xl"></ion-icon>
+            </div>
+            <div class="del-price space-x-8 flex items-center justify-between">
+              <ion-text color="danger">
+                <ion-icon class="text-2xl" :icon="trashOutline"></ion-icon>
+              </ion-text>
+              <ion-text color="primary">
+                <h1>400$</h1>
+              </ion-text>
             </div>
           </ion-card-content>
         </ion-card>
@@ -52,7 +51,7 @@
         <ion-card>
           <ion-card-content>
             <div class="flex justify-around">
-              <img src="../../public/assets/4.jpg" class="w-48">
+              <img src="../../public/assets/1.jpg" class="w-32">
               <div class="text px-4">
                 <ion-text color="primary">
                   <h1>Iphone 6</h1>
@@ -62,29 +61,29 @@
                 </ion-text>
               </div>
             </div>
-            <div class="py-4 flex items-center justify-between">
-              <div class="quantaty px-4 flex items-center justify-between">
-                <ion-icon :icon="addOutline" size="large"></ion-icon>
+            <div class="quantaty p-4 flex items-center justify-around">
+              <ion-icon :icon="addOutline" class="text-2xl"></ion-icon>
 
-                <ion-input type="number" class="text-center" value="3"></ion-input>
-                <ion-icon :icon="removeOutline" size="large"></ion-icon>
-              </div>
-              <div class="del-price space-x-8 flex items-center justify-between">
-                <ion-text color="danger">
-                  <ion-icon size="large" :icon="trashOutline"></ion-icon>
-                </ion-text>
-                <ion-text color="primary">
-                  <h1>400$</h1>
-                </ion-text>
-              </div>
+              <ion-input type="number" class="text-center" value="3"></ion-input>
+              <ion-icon :icon="removeOutline" class="text-2xl"></ion-icon>
+            </div>
+            <div class="del-price space-x-8 flex items-center justify-between">
+              <ion-text color="danger">
+                <ion-icon class="text-2xl" :icon="trashOutline"></ion-icon>
+              </ion-text>
+              <ion-text color="primary">
+                <h1>400$</h1>
+              </ion-text>
             </div>
           </ion-card-content>
         </ion-card>
+
         <!-- 3 -->
+
         <ion-card>
           <ion-card-content>
             <div class="flex justify-around">
-              <img src="../../public/assets/3.jpg" class="w-48">
+              <img src="../../public/assets/4.jpg" class="w-32">
               <div class="text px-4">
                 <ion-text color="primary">
                   <h1>Iphone 6</h1>
@@ -94,21 +93,19 @@
                 </ion-text>
               </div>
             </div>
-            <div class="py-4 flex items-center justify-between">
-              <div class="quantaty px-4 flex items-center justify-between">
-                <ion-icon :icon="addOutline" size="large"></ion-icon>
+            <div class="quantaty p-4 flex items-center justify-around">
+              <ion-icon :icon="addOutline" class="text-2xl"></ion-icon>
 
-                <ion-input type="number" class="text-center" value="3"></ion-input>
-                <ion-icon :icon="removeOutline" size="large"></ion-icon>
-              </div>
-              <div class="del-price space-x-8 flex items-center justify-between">
-                <ion-text color="danger">
-                  <ion-icon size="large" :icon="trashOutline"></ion-icon>
-                </ion-text>
-                <ion-text color="primary">
-                  <h1>400$</h1>
-                </ion-text>
-              </div>
+              <ion-input type="number" class="text-center" value="3"></ion-input>
+              <ion-icon :icon="removeOutline" class="text-2xl"></ion-icon>
+            </div>
+            <div class="del-price space-x-8 flex items-center justify-between">
+              <ion-text color="danger">
+                <ion-icon class="text-2xl" :icon="trashOutline"></ion-icon>
+              </ion-text>
+              <ion-text color="primary">
+                <h1>400$</h1>
+              </ion-text>
             </div>
           </ion-card-content>
         </ion-card>
